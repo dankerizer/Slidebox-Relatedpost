@@ -17,7 +17,7 @@ This is the plugin that you need to increase your user experience and can improv
 
 1. Download it here. unzip and zip relatedslidebox folder.  
 2. Install and activate from WordPress Admin > Plugins page.
-3. Ad this code to your sidebar before end of </div> code.  <?php if(function_exists('danker_related_slidebox')) danker_related_slidebox('category','Your Slidebox Title') ;?> 
+3. Ad this code to your sidebar before end of </div> code.  <?php if(function_exists('danker_related_slidebox')) echo danker_related_slidebox('category','Your Slidebox Title') ;?> 
 
 You also can modified the css style ad css folder of this plugin.
 
