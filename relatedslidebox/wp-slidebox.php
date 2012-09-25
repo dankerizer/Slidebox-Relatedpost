@@ -1,6 +1,6 @@
 <?php
 /* 
-Plugin Name: Related Post Slidebox
+Plugin Name: Slidebox Related Post 
 Plugin URI: http://www.comic2.com/ 
 Description: This plugin will automaticly add related post with slidebox at single post.
 Author: Hadie Danker 
@@ -71,7 +71,7 @@ $postid	= $post->ID;
 		foreach( $relatednya as $poste ) {
 		$shorandlink	= get_permalink($poste);
 		$shorandtitle	= get_the_title($poste);
-		$image			= related_images($poste->ID);
+		$image			= danker_related_images($poste->ID);
 		$category		= get_the_category(' ');
 		$cats			= $category[0]->cat_name;
 		$tgl			= get_the_date('F j, Y');
