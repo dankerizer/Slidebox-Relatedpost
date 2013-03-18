@@ -29,6 +29,5 @@ You also can modified the css style ad css folder of this plugin.
 1. Screenshot 1 -> Layout Sample
 
 == Upgrade Notice ==
-
-= 1.00 =
-* not yet
+0.1.1
+1. Update for CSS Close Button
