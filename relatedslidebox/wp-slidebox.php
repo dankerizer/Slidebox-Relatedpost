@@ -4,8 +4,9 @@ Plugin Name: Slidebox Related Post
 Plugin URI: http://www.comic2.com/ 
 Description: This plugin will automaticly add related post with slidebox at single post.
 Author: Hadie Danker 
-Version: 0.1 
+Version: 0.1.1 
 Author URI: http://www.comic2.com/ 
+Change Log : CSS for close button update
 */  
 
 
@@ -81,7 +82,7 @@ $postid	= $post->ID;
 
 		apply_filters('get_the_date', tgl, 'F j, Y');
 		$isirelatednya	= ' <p id="last"></p><div id="slidebox">
-            <a class="close"></a>
+            <a class="close" href="#" title="close"></a>
             <p>'.$judul.'</p>
             <h3><a href="'.$shorandlink.'" rel="nofollow">'.$shorandtitle.'</a></h3>
 			<span><img src="'.$image.'" width="70" height="70" alt="'.$shorandtitle.'"/>'.$singkatan.'</span>
