@@ -23,7 +23,7 @@ function danker_tambah_code() {
 	wp_register_style( 'relatedslideboxstyle',RELATEDSLIDEBOXURL. '/css/relatedslidebox.css');
 	 wp_enqueue_style( 'relatedslideboxstyle' );
 }
-add_action('wp_enqueue_scripts', danker_tambah_code);
+add_action('wp_enqueue_scripts', 'danker_tambah_code');
 function danker_prependekcontent($text, $excerpt_length) {
 	if ( !empty( $text ) ) {
 		$text = strip_shortcodes( $text );
